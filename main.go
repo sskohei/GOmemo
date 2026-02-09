@@ -11,7 +11,7 @@ func main() {
 	if len(os.Args) < 2 {
 		fmt.Println("使い方:")
 		fmt.Println("  memo add \"内容\"")
-		fmt.Println("  memo list")
+		fmt.Println("  memo list number")
 		fmt.Println("  memo show ID")
 		fmt.Println("  memo search keyword")
 		fmt.Println("  memo delete ID")
