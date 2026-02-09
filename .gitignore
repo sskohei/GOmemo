@@ -1,0 +1,41 @@
+# =========================
+# Go build artifacts
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go test binaries
+*.test
+
+# Go coverage
+*.out
+
+# =========================
+# Go workspace / module
+# =========================
+go.work
+go.work.sum
+
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+
+dist/
+
+# VS Code
+.vscode/
+
+# IntelliJ / GoLand
+.idea/
+
+# =========================
+# CLIアプリ固有
+# =========================
+memo.json
+data.json
+*.log
