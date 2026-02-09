@@ -28,7 +28,11 @@ func main() {
 		command.Add(os.Args[2])
 
 	case "list":
-		command.List()
+		id := 10
+		if len(os.Args) > 2 {
+			id, _ = strconv.Atoi(os.Args[2])
+		}
+		command.List(id)
 
 	case "show":
 		id, _ := strconv.Atoi(os.Args[2])
