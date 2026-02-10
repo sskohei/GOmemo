@@ -21,11 +21,7 @@ func main() {
 	switch os.Args[1] {
 
 	case "add":
-		if len(os.Args) < 3 {
-			fmt.Println("メモ内容を指定してください")
-			return
-		}
-		command.Add(os.Args[2])
+		command.Add(os.Args[2:])
 
 	case "list":
 		id := 10

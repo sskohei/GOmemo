@@ -7,6 +7,7 @@ import (
 
 type Memo struct {
 	ID   int
+	Tag  string
 	Text string
 }
 
